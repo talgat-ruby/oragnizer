@@ -1,0 +1,58 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Oranizer</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/jquery-ui.min.css">
+    </head>
+    <body>
+
+        <header>
+            <figure><img src="favicon.ico" alt="Logo"></figure>
+        </header>
+
+        <main id="page-wrap">
+
+            <nav>
+                <select id="dropdown">
+                    <option>Выберите значение ...</option>
+                </select>
+
+                <input type="text" id="datepicker"/>
+
+                <button id="submit">OK</button>
+            </nav>
+
+
+
+            <table>
+                <thead>
+                <tr>
+                    <th>Имя</th>
+                    <th>Email</th>
+                    <th class="wide">Фамилия</th>
+                </tr>
+                </thead>
+                <tbody id="table-body">
+                </tbody>
+            </table>    
+        </main>
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/jquery-ui.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script>
+            $(function() {
+                $( "#datepicker" ).datepicker();
+            });
+        </script>
+    </body>
+</html>
