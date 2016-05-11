@@ -2,7 +2,9 @@
 
 ###Description
 
-(Very) simple organizer app, made on HTML boilerplate
+Note: Please use Firefox or Safari. If you really need Chrome, please install & config local server, for exmaple [http-server](https://www.npmjs.com/package/http-server) 
+
+(Very) simple organizer app, made on HTML boilerplate.
 
 ###Download
 
